@@ -1,0 +1,1 @@
+# firestore-to-bigquery-script
