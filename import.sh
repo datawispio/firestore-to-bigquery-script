@@ -2,6 +2,7 @@
 set -eu
 
 ### Configuration ###
+gcloud config set project 'PROJECT ID HERE'
 BUCKET='gs://BUCKET NAME HERE'
 FIRESTORE_DB='(default)'
 # make sure you type the collection names correctly, Firestore does not validate this and will just give you an empty table
